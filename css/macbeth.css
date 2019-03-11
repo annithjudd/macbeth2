@@ -1,0 +1,118 @@
+@font-face {
+   font-family: orator-std, monospace;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: athelas, serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.black {
+   height: 600px;
+   width: 378px;
+   top: 50%;
+   left: 50%;
+   margin-top: 50px;
+   margin-left: -200px;
+   position: relative;
+   background-color: black;
+  
+}
+
+.text {
+   height: 200px;
+   width: 378px;
+   top: 50%;
+   left: 50%;
+   margin-top: -125px;
+   margin-left: -200px;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   color: #333333;
+   font-family: "athelas", serif;
+   text-transform: translateX(-50%) translateY(-50%);
+   z-index: 1;
+
+}
+
+
+.blood {
+   margin-top: -155px;
+   margin-left: -100px;
+   top: 50%;
+   left: 50%;
+   display: none;
+   position: absolute;
+}
+
+.Macbeth {
+   font-size: 4em;
+   margin-top: 50px;
+   filter: blur(3px);
+   transition: filter 0.5s;
+}
+
+.Macbeth:hover {
+   filter: blur(0px);
+   transition: filter 0.5s;
+}
+
+.T {
+   color: #C0282D;
+}
+
+@keyframes Will_move {
+   0%  {top: 0px; left: -600px;}
+   25% {top: 0px; left: -480px;}
+   50% {top: 0px; left: -360px;}
+   75% {top: 0px; left: -240px;}
+   100% {top: 0px; left: 0px;}
+}
+
+.Will {
+   margin-top: 15px;
+   color: #C0282D;
+   font-family: "orator-std", monospace;
+   size: 1.75em;
+   text-align: center;
+   position: relative;
+   animation: Will_move 2s linear;
+}
+
+@keyframes Special_move {
+   0%  {top: 0px; left: 600px;}
+   25% {top: 0px; left: 480px;}
+   50% {top: 0px; left: 360px;}
+   75% {top: 0px; left: 240px;}
+   100% {top: 0px; left: 0px;}
+}
+
+.Special {
+   color: #C0282D;
+   font-family: "orator-std", monospace;
+   size: 1.75em;
+   text-align: center;
+   position: relative;
+   animation: Special_move 2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
